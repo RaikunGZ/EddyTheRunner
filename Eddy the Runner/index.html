@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Eddy the Runner</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div id=controll_container>
+                <div>
+                    <button type="submit" id="top" onclick="turnTop('w')">^</button>
+                    <button type="submit" id="down" onclick="turnDown('s')">v</button>
+                    <button type="submit" id="left" onclick="turnLeft('a')"><</button>
+                    <button type="submit" id="right" onclick="turnRight('d')">></button>
+                </div>
+                <button type="submit" id="walk" onclick="walkForward('g')">Walk</button>
+            </div>
+            <div id="overlay">
+                <div id="turn">3</div>
+                <div id="score">21</div>
+                <div id="map">
+                    <div id="frame">
+                        <div id="player"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
